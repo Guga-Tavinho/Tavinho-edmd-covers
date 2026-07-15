@@ -20,7 +20,7 @@ Os packs são separados pela primeira letra ou número do nome da ROM:
 - `0.PAK` para jogos que começam com número.
 - `A.PAK` até `Z.PAK` para jogos que começam com letras.
 
-Isso permite até **4050 capas no total**:    
+Isso permite até **4050 capas no total**   
 
 
 # Recursos implementados:
