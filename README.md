@@ -10,8 +10,8 @@ O trabalho foi feito sem o codigo-fonte original da OS do EverDrive-MD. A firmwa
 
 Firmware de capas e ferramenta por: Tavinho Games
 
-    Instagram: instagram.com/tavinho.games
-    YouTube: youtube.com/@tavinho-games
+    Instagram: [@tavinho.games](https://instagram.com/tavinho.games)
+    YouTube: [youtube.com/@tavinho-games](https://youtube.com/@tavinho-games)
 
 ## Limite de capas
 
