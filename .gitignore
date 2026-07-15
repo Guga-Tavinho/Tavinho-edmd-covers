@@ -1,0 +1,36 @@
+# Proprietary firmware, flash dumps, and generated update binaries
+*.bin
+*.BIN
+M29W640-*
+os-v36*.bin
+OS-UPDATE-*.bin
+POC*.BIN
+
+# Generated cover packs and converted art
+*.PAK
+*.SCIMG
+*.scimg
+converted-covers/
+cover-tool-output/
+previews/
+cover-crops.json
+
+# Build outputs
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.spec.bak
+
+# Local backups and experiments
+firmware-backups/
+sd-pack-backups/
+tool-backups/
+BACKUP-*/
+POC-STABLE-BACKUP*/
+POC-BACKUP*/
+
+# Logs and local temp files
+*.log
+.codex-remote-attachments/
