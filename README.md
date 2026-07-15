@@ -32,6 +32,19 @@ Isso permite até **4050 capas no total**
 - Variantes PT-BR e ES.
 - Correção da troca de página no file browser: ao avançar/voltar página, o cursor volta para o primeiro item da página.
 
+ ## Como usar
+
+1. Copie a firmware `.BIN` para o cartão SD.
+2. No EverDrive-MD, abra o menu **OS Update** selecione e atualize usando a firmware modificada.
+3. No computador, abra a ferramenta **EDMD Cover Pack Tool**.
+4. Selecione a pasta onde estão as ROMs.
+5. Selecione a pasta onde estão as capas.
+6. Escolha a raiz do cartão SD como destino.
+7. Clique em **Gerar .PAK**.
+8. Confira se os arquivos `0.PAK`, `A.PAK` até `Z.PAK` foram gerados na raiz do SD.
+9. Coloque o SD no EverDrive-MD e abra o file browser.
+10. Ao passar o cursor sobre uma ROM com capa associada, as capas serão exibidas automaticamente.
+
 ## Base tecnica
 
 Base usada durante o desenvolvimento:
