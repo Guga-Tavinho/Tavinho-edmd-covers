@@ -1,6 +1,6 @@
 # EDMD Cover Pack Tool
 
-Ferramenta externa para gerar os arquivos `.PAK` usados pela firmware POC117-H160 do EverDrive-MD clone.
+Ferramenta externa para gerar os arquivos `.PAK` usados pela firmware.
 
 ## Créditos
 
