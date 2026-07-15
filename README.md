@@ -4,6 +4,14 @@ Este projeto documenta e automatiza uma modificacao experimental da OS v36 do Ev
 
 O trabalho foi feito sem o codigo-fonte original da OS do EverDrive-MD. A firmware final e resultado de engenharia reversa, patch binario controlado e codigo 68000 injetado em uma area livre da OS principal.
 
+# Créditos
+
+Firmware de capas e ferramenta por: Tavinho Games
+
+    Instagram: instagram.com/tavinho.games
+    YouTube: youtube.com/@tavinho-games
+
+
 # Recursos implementados:
 
 - Exibicao automatica de capas ao navegar sobre ROMs `.bin`.
