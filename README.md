@@ -4,46 +4,14 @@ Este projeto documenta e automatiza uma modificacao experimental da OS v36 do Ev
 
 O trabalho foi feito sem o codigo-fonte original da OS do EverDrive-MD. A firmware final e resultado de engenharia reversa, patch binario controlado e codigo 68000 injetado em uma area livre da OS principal.
 
-## Estado atual
-
-Versoes finais geradas:
-
-- `POC135-H160-FATFIX-INSTA-AT.BIN`: firmware em ingles/base, com capas, About personalizado e texto de Instagram no browser.
-- `POC135-PTBR.BIN`: variante traduzida para portugues brasileiro.
-- `POC135-ES.BIN`: variante traduzida para espanhol.
-
-Recursos implementados:
+# Recursos implementados:
 
 - Exibicao automatica de capas ao navegar sobre ROMs `.bin`.
-- Capas carregadas de `0.PAK`, `A.PAK`, `B.PAK` ... `Z.PAK` na raiz do SD.
 - Capa em 128x160 pixels, equivalente a 16x20 tiles do Mega Drive.
 - Ferramenta externa para converter capas PNG/JPG e montar os `.PAK`.
 - Editor visual de recorte/enquadramento.
-- About personalizado com creditos Tavinho Games.
-- Texto no browser: `Siga no instagram: @tavinho.games`.
 - Variantes PT-BR e ES.
-- Correcao do travamento ao entrar em `OS UPDATE` depois de usar o file browser.
-
-## Aviso importante para publicacao
-
-Este repositorio nao deve distribuir firmware original da Krikzz, dumps completos de flash, nem arquivos `.bin` derivados caso voce queira evitar redistribuir material proprietario.
-
-O formato recomendado para GitHub e publicar:
-
-- scripts Python;
-- documentacao;
-- descricoes dos offsets;
-- arquivos de patch/diff;
-- ferramenta de geracao de `.PAK`;
-- instrucoes para o usuario gerar sua propria firmware a partir da OS oficial obtida por meios legitimos.
-
-Evite publicar:
-
-- `os-v36.bin`;
-- `M29W640-DUMP-COPYCART-WORKING.BIN`;
-- `M29W640-extract-os_bank_10000.bin`;
-- qualquer dump completo de cartucho/flash;
-- binarios finais derivados da OS original, se a licenca da OS nao permitir redistribuicao.
+- Correção da troca de página no file browser: ao avançar/voltar página, o cursor volta para o primeiro item da página.
 
 ## Base tecnica
 
@@ -87,7 +55,7 @@ O processo comecou com a OS v36 em binario, sem source. A engenharia reversa foi
 - identificacao de rotinas FAT/SD ja existentes na OS;
 - identificacao de rotinas de texto/tela/VDP;
 - testes incrementais em hardware real;
-- validacao visual por fotos da TV/CRT;
+- validacao visual;
 - comparacao byte a byte entre POCs estaveis e novas POCs.
 
 Offsets importantes:
@@ -142,7 +110,7 @@ B.PAK
 Z.PAK
 ```
 
-Para adicionar ou corrigir capas, normalmente basta gerar novamente os `.PAK`. Nao e necessario atualizar a firmware.
+Para adicionar ou corrigir capas, basta gerar novamente os `.PAK`. Nao e necessario atualizar a firmware.
 
 ## Ferramenta de capas
 
