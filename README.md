@@ -11,6 +11,17 @@ Firmware de capas e ferramenta por: Tavinho Games
     Instagram: instagram.com/tavinho.games
     YouTube: youtube.com/@tavinho-games
 
+## Limite de capas
+
+Na versão atual da firmware, cada arquivo `.PAK` suporta até **150 capas**.
+
+Os packs são separados pela primeira letra ou número do nome da ROM:
+
+- `0.PAK` para jogos que começam com número.
+- `A.PAK` até `Z.PAK` para jogos que começam com letras.
+
+Isso permite até **4050 capas no total**:    
+
 
 # Recursos implementados:
 
