@@ -1,3 +1,9 @@
+<p align="right">
+  <strong>Português</strong> |
+  <a href="./README-EN.md">English</a> |
+  <a href="./README-ES.md">Español</a>
+</p>
+
 # Firmware de capas para EverDrive-MD V2
 
 Firmware modificada para EverDrive-MD V2 que adiciona **capas de jogos diretamente no file browser**, deixando a navegação pelo cartão SD mais bonita, prática e parecida com menus modernos de flashcarts.
@@ -5,6 +11,23 @@ Firmware modificada para EverDrive-MD V2 que adiciona **capas de jogos diretamen
 O projeto inclui a firmware com suporte a capas e uma ferramenta para Windows capaz de converter imagens PNG/JPG em arquivos `.PAK`, usados pelo EverDrive para exibir automaticamente a capa correspondente ao jogo selecionado.
 
 O trabalho foi feito sem o codigo-fonte original da OS do EverDrive-MD. A firmware final e resultado de engenharia reversa.
+
+<h2 align="center">🎥 Demonstração em vídeo</h2>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ZBZwvmXG3as&t=1s">
+    <img
+      src="https://i.imgur.com/IX8iTHN.jpeg"
+      alt="Assistir à demonstração em vídeo"
+      width="700"
+    >
+  </a>
+</p>
+
+<p align="center">
+  Clique na imagem para assistir no YouTube.
+</p>
+
 
 # Créditos
 
